@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+img{
+    width: 100%;
+}
+
+table{
+    margin: 2rem auto;
+    border-radius: 1rem;
+    border: 1rem hidden black;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+}
+
+tbody{
+
+    background-color: white;
+}
+
+td{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+thead{
+    font-size: 1.6rem;
+    border: 1px solid black;
+    background-color: #F2F2F2;
+}
+
+th, td{
+    border-left: 1px solid black;
+    border-collapse: collapse;
+    min-width: 10rem;
+    text-align: start;
+}
+th{
+    padding: 1.5rem 2rem;
+}
+td{
+    padding: 0 2rem;
+}
+
